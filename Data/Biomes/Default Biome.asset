@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 153150d1ad327244090fbb8d8d43f44b, type: 3}
+  m_Name: Default Biome
+  m_EditorClassIdentifier: 
+  mappingScale: 1
+  mappingOffset: 10
+  nodes:
+  - name: Andesite nodes
+    voxelID: 3
+    rarity: 25
+    maxHeight: 0
+    minHeight: 0
+    nodeScale: 2
+    nodeOffset: 10
+  - name: Basalt nodes
+    voxelID: 5
+    rarity: 35
+    maxHeight: 0
+    minHeight: 0
+    nodeScale: 2
+    nodeOffset: 0
+  - name: Diorite nodes
+    voxelID: 6
+    rarity: 35
+    maxHeight: 0
+    minHeight: 0
+    nodeScale: 2
+    nodeOffset: 20
+  - name: Dirt nodes
+    voxelID: 11
+    rarity: 35
+    maxHeight: 0
+    minHeight: 0
+    nodeScale: 2
+    nodeOffset: 30
